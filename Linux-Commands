@@ -1,0 +1,44 @@
+-A -D 	--> capital letters FORCE actions
+
+git add -A      # take things AS they are
+		# 
+ 
+git rm    <TAB> <TAB>
+	lists also directories that have been deleted from the local repo
+
+git rm -r ArtikelStammMigration
+	-> all files under "ArtikelStammMigration" are then staged as 
+
+always: see git status
+
+
+
+
+
+
+
+
+git commit 
+git commit -a 		# automatically stages modified and deleted files, but NOT new ones
+
+
+git checkout myTestBranch
+CAUTION: this actually silently switches to that 
+
+
+git reset 		- unstage all 
+
+git clone versus checkout
+---------------------------------
+git clone    -> gets a remote REPO (its the SVN checkout)
+git checkout -> switches to another BRANCH within a repo.
+THIS MIGHT MEAN: getting it from the remote repo (if it doesnt
+exist yet as local branch, or directly switching to the
+existing local branch (which might be out-of-sync with the
+remote repo)
+
+git checkout origin/new	
+
+
+
+

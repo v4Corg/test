@@ -1,0 +1,90 @@
+[] 100-200:
+
+ 	meistens nachname - 
+	
+	email - doubletten finden
+	name  - doubletten finden
+
+	PrivatKunden von Firmenkunden trennen.
+
+	Z: 1,4,5,6 --> muessten 90% Firmenkunden. --> muessen gesondert behandelt.
+	Z: 2,3   --> Privatkunden -- schreien bei gmbh oder so.
+
+	Kundennummer -> 
+	Privatkunde -> X 
+
+	Sprache: aus Staat ableiten.
+
+	Fallback: englisch
+
+	Adressen-Reiter:
+
+		CO --> zu handen
+		US/CANADA - braucht zwingend Bundesland aus PLZ.
+
+	Steuerstandortcode --> leer
+	Telefon: 0er raus.
+
+
+
+	Direkte Zustandigkeit:
+
+		Kundennummer, 
+		Beteiligtenrolle: Zustaendiger Mitarbeiter - Vertrieb.
+		Zustaendiger Mitarbeiter-rolle: 
+
+			AT = Jens Hofer
+			DE = Christian Krieglmeier
+			FR = Christian Krenn
+			HR = Hamid Mustafic
+			BE/NL = Christian Krenn
+			PL = Artur Hadzicki
+			SI = Hamid Mustafic
+			HU = Hamid Mustafic
+			GB = Artur Hadzicki
+			Rest = Artur Hadzicki
+
+	Verkaufsdaten:
+
+		Kundennummer
+
+		Verkaufsorganisation haengt von land ab --> siehe liste:
+		Default: KS International.
+
+		Vertriebs
+		Kundengruppe: 	2  torwart
+				3 Feldspieler
+
+		Waehrung: haengt auch wieder von Land ab:
+			Kroatien = HRK
+			Polen = PLN
+			UK = GBP
+			Ungarn = HUF
+			Rest = EUR
+
+	Zahlungsdaten:
+		Kundennummer,
+		Kundennummer 2x, immer mit Unternehmensnummer 1. dann 2.
+						
+		Unternehmensnummer: 	1 - oesterreich
+					2 - 
+
+		Kunde = AT
+		Unternehmen 1 - Inland, nicht verbundenes Unternehmen
+		Kunde = IT
+		Unternehmen 2 - Inland, nicht verbundenes Unternehmen
+		Sonst immer Ausland, nicht verbundenes Unternehmen
+				
+	
+
+
+
+		
+		
+	
+
+
+	
+	
+
+	

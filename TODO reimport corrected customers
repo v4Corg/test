@@ -1,0 +1,9 @@
+TODO  reimport 2205 - k
+
+
+[] Ueberschreiben des bestehenden Kontos (per nummer)
+   und zwar mit valid=3 (korrekted). 
+   valid = 3, corrected ist dann das einzige neben valid=1
+   das auch aufgenommen wird.
+
+Per namen
