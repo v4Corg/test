@@ -5,6 +5,7 @@
 asdfasdfasfd
 
 
-
+void main ()
+{}
 
 adsfasdf
