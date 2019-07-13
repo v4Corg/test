@@ -6,6 +6,8 @@ asdfasdfasfd
 
 
 void main ()
-{}
+{
+return 12;
+}
 
 adsfasdf
