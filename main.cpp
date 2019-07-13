@@ -7,7 +7,7 @@ asdfasdfasfd
 
 void main ()
 {
-return 12;
+return 12;asdfadsfa
 }
 
 adsfasdf
